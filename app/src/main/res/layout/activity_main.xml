@@ -1,0 +1,44 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#00aabb"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Enter the number 1"
+    android:padding="10dp"
+    >
+</TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/num1"
+        android:padding="10dp"
+        >
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the number 2"
+        android:padding="10dp"
+        >
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/num2"
+        android:padding="10dp"
+        >
+    </EditText>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addbut"
+        android:text="Add(+)"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.AppCompatButton>
+</LinearLayout>
